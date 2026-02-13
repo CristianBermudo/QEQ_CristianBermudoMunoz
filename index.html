@@ -1,8 +1,55 @@
-<html>
-    <head>
-        <title>Ampliación del reto - Nombre Apellido1 Apellido2</title>
-        <link rel="stylesheet" href="estilos/estilos.css">
-    </head>
-    <body>
-    </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quién es quién? - Studio Ghibli</title>
+
+    <!-- Enlace al CSS -->
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>¿Quién es quién? - Studio Ghibli</h1>
+    </header>
+
+    <main>
+
+        <!-- Personaje a adivinar -->
+        <section>
+            <h2>Personaje secreto</h2>
+            <div id="personaje-secreto"></div>
+        </section>
+
+        <br>
+        <br>
+
+        <!-- Cuadrícula de personajes -->
+        <section>
+            <div id="grid"></div>
+        </section>
+    <br>
+    <br>
+        <!-- Botón reset -->
+        <section>
+            <button id="reset">Resetear juego</button>
+        </section>
+
+    </main>
+    <br>
+    <br>
+    <footer>
+        <!-- Firma GitHub -->
+        <div id="github"></div>
+    </footer>
+
+    
+    <script src="js/conseguirImagenes.js"></script>
+    <script src="js/generarAdivinar.js"></script>
+    <script src="js/generarImagenes.js"></script>
+    <script src="js/resetearJuego.js"></script>
+    <script src="js/apiGithub.js"></script>
+
+</body>
 </html>
